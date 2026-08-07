@@ -28,14 +28,21 @@ A beginner-friendly RESTful E-Commerce Backend API built with **Node.js**, **Exp
 ## 📁 Project Structure
 
 ```text
-├── controllers/
-├── middleware/
-├── models/
-├── routes/
-├── uploads/
-├── config/
-├── server.js
-└── package.json
+E-commerse API/
+├── Database/
+│   ├── cartDB.js
+│   ├── ecomm.js
+│   └── users.js
+├── Routes/
+│   ├── cart.js
+│   ├── loginRoute.js
+│   └── routes.js
+├── .env
+├── .gitignore
+├── node_modules/
+├── package-lock.json
+├── package.json
+└── server.jsn
 ```
 
 ## 📌 API Modules
