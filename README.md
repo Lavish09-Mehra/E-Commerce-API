@@ -9,11 +9,10 @@ A beginner-friendly RESTful E-Commerce Backend API built with **Node.js**, **Exp
 * 🛡️ Role-Based Authorization (Admin / Customer)
 * 📦 Product CRUD Operations
 * 🛒 Shopping Cart System
-* 📤 Image Upload using Multer
-* ☁️ Cloudinary Image Storage
 * 🗄️ MongoDB with Mongoose
 * 🔒 Password Hashing with bcrypt
 * 📄 RESTful API Design
+*  Forgot Password
 * ❌ Proper Error Handling
 
 ## 🛠️ Tech Stack
@@ -24,8 +23,6 @@ A beginner-friendly RESTful E-Commerce Backend API built with **Node.js**, **Exp
 * Mongoose
 * JWT (jsonwebtoken)
 * bcryptjs
-* Multer
-* Cloudinary
 * dotenv
 
 ## 📁 Project Structure
@@ -70,8 +67,6 @@ A beginner-friendly RESTful E-Commerce Backend API built with **Node.js**, **Exp
 * MongoDB Relationships
 * JWT Authentication
 * Role-Based Access Control
-* File Uploads with Multer
-* Cloudinary Integration
 * Middleware in Express
 * Mongoose Schemas & Models
 * API Testing with Postman
@@ -94,9 +89,6 @@ Create a `.env` file and add your credentials:
 ```env
 MONGO_URL=your_mongodb_connection
 JWT_SECRET=your_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
 ```
 
 ## 🧪 Testing
@@ -112,19 +104,6 @@ This project is primarily my own work.
 * The **`cart.js`** implementation contains the largest amount of AI-assisted code, while nearly all other routes, middleware, models, and project files were handwritten by me.
 
 I used AI as a learning tool to understand concepts and improve implementation rather than simply generating the complete project.
-
-## 📈 Future Improvements
-
-* Wishlist
-* Orders
-* Payment Gateway (Stripe/Razorpay)
-* Product Reviews
-* Search & Filters
-* Pagination
-* Email Verification
-* Forgot Password
-* Admin Dashboard
-* Unit Testing
 
 ## 👨‍💻 Author
 
